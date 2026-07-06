@@ -1,0 +1,6 @@
+C:/Users/lichanglong02/Pictures/test\bln_d.tga
+C:/Users/lichanglong02/Pictures/test\bln_d_low.tga
+C:/Users/lichanglong02/Pictures/test\cysq00_body_d.tga
+C:/Users/lichanglong02/Pictures/test\hlsz00_body_d.tga
+C:/Users/lichanglong02/Pictures/test\hlsz00_d.tga
+C:/Users/lichanglong02/Pictures/test\stb_body_d.tga

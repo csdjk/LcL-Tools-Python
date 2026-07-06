@@ -1,0 +1,102 @@
+/* style.qss - 全局样式表 */
+
+/* 全局样式 */
+QWidget {
+    font-family: Arial, sans-serif;
+}
+
+QPushButton {
+    padding: 4px 8px;
+    background-color: #f0f0f0;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+}
+
+QPushButton:hover {
+    background-color: #e0e0e0;
+}
+
+QSlider::groove:horizontal {
+    height: 5px;
+    background: #c0c0c0;
+    margin: 0px;
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal {
+    background: #5c5c5c;
+    border: 1px solid #5c5c5c;
+    width: 10px;
+    margin: -5px 0px;
+    border-radius: 2px;
+}
+
+QLabel {
+    margin: 0px;
+}
+
+/* 预览区域标题标签 */
+.preview_title {
+    font-size: 12px;
+    margin: 0px;
+    padding: 2px 0px;
+    max-height: 18px;
+}
+
+QCheckBox {
+    padding: 2px;
+}
+
+/* 预览图片标签样式 */
+#base_image_label, #mask_image_label {
+    border: 1px solid black;
+}
+
+/* 区域参数项样式 */
+RegionParamItem {
+    background-color: #f5f5f5;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    margin: 1px;
+}
+
+RegionParamItem QLabel {
+    font-size: 11px;
+}
+
+RegionParamItem QSlider {
+    max-height: 15px;
+}
+
+RegionParamItem QLineEdit {
+    max-height: 20px;
+    padding: 1px;
+}
+
+RegionParamItem QPushButton {
+    padding: 2px 8px;
+    background-color: #e0e0e0;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+}
+
+RegionParamItem QPushButton:hover {
+    background-color: #d0d0d0;
+}
+
+/* 滚动区域样式 */
+QScrollArea {
+    border: 1px solid #c0c0c0;
+    background-color: white;
+}
+
+/* 标题样式 */
+#region_title_label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* 删除按钮样式 */
+#remove_button {
+    padding: 0px;
+}
